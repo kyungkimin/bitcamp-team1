@@ -22,7 +22,8 @@ public class EduApp {
       case "go 1": studentController.service(); break;
       case "go 2": classroomController.service(); break;
       case "go 3": curriculumController.service(); break;
-      case "help1": break;
+      case "help": break;
+      case "help11": break;
       case "quit":
         System.out.println("Good bye!");
         break loop;
