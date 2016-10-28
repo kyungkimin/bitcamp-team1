@@ -25,6 +25,12 @@ public class EduApp {
       case "help": break;
       case "help11": break;
       case "gogome" : break;
+
+      case "help3": System.out.println("안도와줌!!ㅋㅋㅋ"); break;
+      case "hahaha": Syste.out.println("빨라... 너무 빨라"); break;
+      case "help1": break;
+      case "help": break;
+      case "help34": break;
       case "quit":
         System.out.println("Good bye!");
         break loop;
