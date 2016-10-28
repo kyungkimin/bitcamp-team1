@@ -15,6 +15,7 @@ public class ClassroomController {
         System.out.print("강의실 관리> ");
         String command = keyScan.nextLine().toLowerCase(); // 소문자로 값을 받는다.
         switch (command) {
+          case "add" : this.doAdd(); break;
           case "list" : this.doList(); break;
           case "view" : this.doView(); break;
           case "delete" : this.doDelete(); break;
