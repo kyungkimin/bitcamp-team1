@@ -49,7 +49,7 @@ public class CurriculumController {
     }
   }
   public void doUpdate() {
-    System.out.print("변경할 학생의 아이디는? ");
+    System.out.print("변경할 강좌는? ");
     String curriculumName = this.keyScan.nextLine().toLowerCase();
     for (int i = 0; i < this.length; i++) {
       if (this.curriculums[i].curriculumName.toLowerCase().equals(curriculumName)) {
