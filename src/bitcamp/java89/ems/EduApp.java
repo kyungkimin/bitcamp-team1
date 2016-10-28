@@ -28,6 +28,7 @@ public class EduApp {
         break loop;
       default:
         System.out.println("지원하지 않는 명령어입니다.");
+        System.out.println("________");
       }
     }
   }
