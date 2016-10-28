@@ -23,6 +23,7 @@ public class EduApp {
       case "go 2": classroomController.service(); break;
       case "go 3": curriculumController.service(); break;
       case "help3": System.out.println("안도와줌!!ㅋㅋㅋ"); break;
+      case "hahaha": Syste.out.println("빨라... 너무 빨라"); break; 
       case "help1": break;
       case "help": break;
       case "help23": break;
