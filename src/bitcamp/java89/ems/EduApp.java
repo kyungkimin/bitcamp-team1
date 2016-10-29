@@ -9,6 +9,7 @@ public class EduApp {
     StudentController studentController = new StudentController(keyScan);
     ClassroomController classroomController = new ClassroomController(keyScan);
     CurriculumController curriculumController = new CurriculumController(keyScan);
+    TextbookController textbookController = new TextbookController(keyScan);
 
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
 
@@ -22,21 +23,12 @@ public class EduApp {
       case "go 1": studentController.service(); break;
       case "go 2": classroomController.service(); break;
       case "go 3": curriculumController.service(); break;
-      case "help": break;
-      case "help11": break;
-      case "gogome" : break;
-
-      case "help3": System.out.println("안도와줌!!ㅋㅋㅋ"); break;
-      case "hahaha": Syste.out.println("빨라... 너무 빨라"); break;
-      case "help1": break;
-      case "help": break;
-      case "help34": break;
+      case "go 4": textbookController.service(); break;
       case "quit":
         System.out.println("Good bye!");
         break loop;
       default:
         System.out.println("지원하지 않는 명령어입니다.");
-        System.out.println("________");
       }
     }
   }
@@ -45,6 +37,7 @@ public class EduApp {
     System.out.println("1.학생관리");
     System.out.println("2.강의실관리");
     System.out.println("3.강좌관리");
+    System.out.println("4.교재관리");
     System.out.println("메뉴 이동은 'go 메뉴번호'를 입력하세요.");
   }
 }
